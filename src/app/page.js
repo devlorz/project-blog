@@ -7,7 +7,6 @@ import styles from "./homepage.module.css";
 
 async function Home() {
   const blogPostList = await getBlogPostList();
-  console.log(blogPostList);
 
   return (
     <div className={styles.wrapper}>
