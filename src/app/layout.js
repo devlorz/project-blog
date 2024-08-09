@@ -7,6 +7,7 @@ import {
   LIGHT_TOKENS,
   DARK_TOKENS,
   BLOG_TITLE,
+  BLOG_DESCRIPTION,
   COLOR_THEME_COOKIE_NAME,
 } from "@/constants";
 
@@ -30,7 +31,7 @@ const monoFont = Spline_Sans_Mono({
 
 export const metadata = {
   title: BLOG_TITLE,
-  description: "A wonderful blog about JavaScript",
+  description: BLOG_DESCRIPTION,
 };
 
 function RootLayout({ children }) {
